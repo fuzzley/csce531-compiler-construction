@@ -1,0 +1,6 @@
+Warning: redefinition of E to A at line 25
+Warning: redefinition of E to G at line 29
+Warning: redefinition of G to F at line 33
+Warning: redefinition of F to B at line 34
+Warning: redefinition of G to G at line 38
+Warning: redefinition of G to F at line 42

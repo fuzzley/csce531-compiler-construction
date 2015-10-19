@@ -1,0 +1,1 @@
+Warning: redefinition of CIRCLE6 to SOME_STR at line 22

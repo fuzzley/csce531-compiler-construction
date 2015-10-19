@@ -1,0 +1,1 @@
+Warning: redefinition of FORK1 to RIGHT6 at line 23
