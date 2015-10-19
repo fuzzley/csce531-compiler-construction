@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 test_file_name"
+else
+  ./ppc3-sol < $1 > out-sol.s 2> err-sol.err
+  ./ppc3 < $1 > out.s 2> err.err
+  
+  echo "diff on err.err and err-sol.err"
+  diff ./err.err ./err-sol.err
+  echo "diff on out.s and out-sol.s"
+  diff ./out.s ./out-sol.s
+fi

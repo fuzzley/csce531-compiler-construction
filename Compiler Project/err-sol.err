@@ -1,0 +1,5 @@
+line 17: ERROR -- Undeclared identifier "A" in expression
+line 17: ERROR -- Case expression is not of ordinal type
+line 18: ERROR -- Case constant type does not match case expression type
+line 19: ERROR -- Case constant type does not match case expression type
+line 20: ERROR -- Case constant type does not match case expression type
